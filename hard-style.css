@@ -1,0 +1,55 @@
+#title{
+    margin:auto;
+    width:36%;
+    margin-top:50px;
+}
+
+#logo{
+    height:100%;
+    width:100%;
+}
+
+#maingame{
+    margin:auto;
+    margin-top:25px;
+}
+
+table{
+    background-color: rgb(253, 226, 226);
+    text-align:center;
+    border-spacing: 0px;
+}
+
+td{
+    border:1px solid black;
+    height:45px;
+    width:45px;
+}
+
+td:hover{
+    cursor:pointer;
+}
+
+span{
+    font-weight: bold;
+    font-size:20px;
+}
+
+div{
+    font-weight: bold;
+    font-size:20px;
+}
+
+#btn{
+    text-align:center;
+}
+
+#btn img{
+    height:72px;
+    width:255px;
+    margin:30px;
+}
+
+#btn img:hover{
+    cursor:pointer;
+}

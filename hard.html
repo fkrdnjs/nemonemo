@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta chrarset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="hard-style.css">
+        <title>Hard Game</title>
+    </head>
+
+    <body style="background-color:rgb(255, 156, 156);">
+
+        <header id="title">
+            <a href="index.html">
+                <abbr title="Go to main page"><img src="img/title.png" alt="title" id="logo"></abbr>
+            </a>
+        </header>
+
+        <div id="nemo">
+            <table id="maingame">
+                <tr id="hint">
+                    <td></td>
+                    <td style="vertical-align:bottom; border-bottom:3px solid black">
+                        <div>2</div>
+                        <div>3</div>
+                    </td>
+                    <td style="vertical-align:bottom; border-bottom:3px solid black">
+                        <div>3</div>
+                        <div>1</div>
+                        <div>2</div>
+                    </td>
+                    <td style="vertical-align:bottom; border-bottom:3px solid black">
+                        <div>1</div>
+                        <div>3</div>
+                        <div>1</div>
+                    </td>
+                    <td style="vertical-align:bottom; border-bottom:3px solid black">
+                        <div>1</div>
+                        <div>1</div>
+                        <div>1</div>
+                    </td>
+                    <td style="vertical-align:bottom; border-bottom:3px solid black">
+                        <div>1</div>
+                        <div>1</div>
+                    </td>
+                    <td style="vertical-align:bottom; border-bottom:3px solid black">
+                        <div>4</div>
+                        <div>1</div>
+                        <div>1</div>
+                    </td>
+                    <td style="vertical-align:bottom; border-bottom:3px solid black">
+                        <div>1</div>
+                        <div>2</div>
+                        <div>1</div>
+                    </td>
+                    <td style="vertical-align:bottom; border-bottom:3px solid black">
+                        <div>1</div>
+                        <div>1</div>
+                        <div>1</div>
+                    </td>
+                    <td style="vertical-align:bottom; border-bottom:3px solid black">
+                        <div>1</div>
+                        <div>1</div>
+                        <div>2</div>
+                    </td>
+                    <td style="vertical-align:bottom; border-bottom:3px solid black">
+                        <div>7</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:right; border-right:3px solid black">
+                        <span>3</span>
+                    </td>
+                    <td id="cell1" onclick="click1()"></td>
+                    <td id="cell2" onclick="click2()"></td>
+                    <td id="cell3" onclick="click3()"></td>
+                    <td id="cell4" onclick="click4()"></td>
+                    <td id="cell5" onclick="click5()" style="border-right:3px solid black"></td>
+                    <td id="cell6" onclick="click6()"></td>
+                    <td id="cell7" onclick="click7()"></td>
+                    <td id="cell8" onclick="click8()"></td>
+                    <td id="cell9" onclick="click9()"></td>
+                    <td id="cell10" onclick="click10()" style="border-right:4px solid black"></td>
+                </tr>
+
+                <tr>
+                    <td style="text-align:right; border-right:3px solid black">
+                        <span>1</span>
+                        <span>1</span>
+                    </td>
+                    <td id="cell11" onclick="click11()"></td>
+                    <td id="cell12" onclick="click12()"></td>
+                    <td id="cell13" onclick="click13()"></td>
+                    <td id="cell14" onclick="click14()"></td>
+                    <td id="cell15" onclick="click15()" style="border-right:3px solid black"></td>
+                    <td id="cell16" onclick="click16()"></td>
+                    <td id="cell17" onclick="click17()"></td>
+                    <td id="cell18" onclick="click18()"></td>
+                    <td id="cell19" onclick="click19()"></td>
+                    <td id="cell20" onclick="click20()" style="border-right:4px solid black"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right; border-right:3px solid black">
+                        <span>2</span>
+                        <span>1</span>
+                        <span>1</span>
+                    </td>
+                    <td id="cell21" onclick="click21()"></td>
+                    <td id="cell22" onclick="click22()"></td>
+                    <td id="cell23" onclick="click23()"></td>
+                    <td id="cell24" onclick="click24()"></td>
+                    <td id="cell25" onclick="click25()" style="border-right:3px solid black"></td>
+                    <td id="cell26" onclick="click26()"></td>
+                    <td id="cell27" onclick="click27()"></td>
+                    <td id="cell28" onclick="click28()"></td>
+                    <td id="cell29" onclick="click29()"></td>
+                    <td id="cell30" onclick="click30()" style="border-right:4px solid black"></td>
+                </tr>
+                <tr>
+                    <td style="width:60px; text-align:right; border-right:3px solid black">
+                        <span>3</span>
+                        <span>1</span>
+                        <span>1</span>
+                    </td>
+                    <td id="cell31" onclick="click31()"></td>
+                    <td id="cell32" onclick="click32()"></td>
+                    <td id="cell33" onclick="click33()"></td>
+                    <td id="cell34" onclick="click34()"></td>
+                    <td id="cell35" onclick="click35()" style="border-right:3px solid black"></td>
+                    <td id="cell36" onclick="click36()"></td>
+                    <td id="cell37" onclick="click37()"></td>
+                    <td id="cell38" onclick="click38()"></td>
+                    <td id="cell39" onclick="click39()"></td>
+                    <td id="cell40" onclick="click40()" style="border-right:4px solid black"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right; border-right:3px solid black">
+                        <span>1</span>
+                        <span>5</span>
+                    </td>
+                    <td id="cell41" onclick="click41()" style="border-bottom:3px solid black"></td>
+                    <td id="cell42" onclick="click42()" style="border-bottom:3px solid black"></td>
+                    <td id="cell43" onclick="click43()" style="border-bottom:3px solid black"></td>
+                    <td id="cell44" onclick="click44()" style="border-bottom:3px solid black"></td>
+                    <td id="cell45" onclick="click45()" style="border-bottom:3px solid black; border-right:3px solid black"></td>
+                    <td id="cell46" onclick="click46()" style="border-bottom:3px solid black"></td>
+                    <td id="cell47" onclick="click47()" style="border-bottom:3px solid black"></td>
+                    <td id="cell48" onclick="click48()" style="border-bottom:3px solid black"></td>
+                    <td id="cell49" onclick="click49()" style="border-bottom:3px solid black"></td>
+                    <td id="cell50" onclick="click50()" style="border-bottom:3px solid black; border-right:4px solid black"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right; border-right:3px solid black">
+                        <span>1</span>
+                        <span>1</span>
+                    </td>
+                    <td id="cell51" onclick="click51()"></td>
+                    <td id="cell52" onclick="click52()"></td>
+                    <td id="cell53" onclick="click53()"></td>
+                    <td id="cell54" onclick="click54()"></td>
+                    <td id="cell55" onclick="click55()" style="border-right:3px solid black"></td>
+                    <td id="cell56" onclick="click56()"></td>
+                    <td id="cell57" onclick="click57()"></td>
+                    <td id="cell58" onclick="click58()"></td>
+                    <td id="cell59" onclick="click59()"></td>
+                    <td id="cell60" onclick="click60()" style="border-right:4px solid black"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right; border-right:3px solid black">
+                        <span>1</span>
+                        <span>4</span>
+                    </td>
+                    <td id="cell61" onclick="click61()"></td>
+                    <td id="cell62" onclick="click62()"></td>
+                    <td id="cell63" onclick="click63()"></td>
+                    <td id="cell64" onclick="click64()"></td>
+                    <td id="cell65" onclick="click65()" style="border-right:3px solid black"></td>
+                    <td id="cell66" onclick="click66()"></td>
+                    <td id="cell67" onclick="click67()"></td>
+                    <td id="cell68" onclick="click68()"></td>
+                    <td id="cell69" onclick="click69()"></td>
+                    <td id="cell70" onclick="click70()" style="border-right:4px solid black"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right; border-right:3px solid black">
+                        <span>1</span>
+                        <span>2</span>
+                        <span>1</span>
+                    </td>
+                    <td id="cell71" onclick="click71()"></td>
+                    <td id="cell72" onclick="click72()"></td>
+                    <td id="cell73" onclick="click73()"></td>
+                    <td id="cell74" onclick="click74()"></td>
+                    <td id="cell75" onclick="click75()" style="border-right:3px solid black"></td>
+                    <td id="cell76" onclick="click76()"></td>
+                    <td id="cell77" onclick="click77()"></td>
+                    <td id="cell78" onclick="click78()"></td>
+                    <td id="cell79" onclick="click79()"></td>
+                    <td id="cell80" onclick="click80()" style="border-right:4px solid black"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right; border-right:3px solid black">
+                        <span>2</span>
+                        <span>2</span>
+                    </td>
+                    <td id="cell81" onclick="click81()"></td>
+                    <td id="cell82" onclick="click82()"></td>
+                    <td id="cell83" onclick="click83()"></td>
+                    <td id="cell84" onclick="click84()"></td>
+                    <td id="cell85" onclick="click85()" style="border-right:3px solid black"></td>
+                    <td id="cell86" onclick="click86()"></td>
+                    <td id="cell87" onclick="click87()"></td>
+                    <td id="cell88" onclick="click88()"></td>
+                    <td id="cell89" onclick="click89()"></td>
+                    <td id="cell90" onclick="click90()" style="border-right:4px solid black"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right; border-right:3px solid black">
+                        <span>10</span>
+                    </td>
+                    <td id="cell91" onclick="click91()" style="border-bottom:4px solid black"></td>
+                    <td id="cell92" onclick="click92()" style="border-bottom:4px solid black"></td>
+                    <td id="cell93" onclick="click93()" style="border-bottom:4px solid black"></td>
+                    <td id="cell94" onclick="click94()" style="border-bottom:4px solid black"></td>
+                    <td id="cell95" onclick="click95()" style="border-right:3px solid black; border-bottom:4px solid black"></td>
+                    <td id="cell96" onclick="click96()" style="border-bottom:4px solid black"></td>
+                    <td id="cell97" onclick="click97()" style="border-bottom:4px solid black"></td>
+                    <td id="cell98" onclick="click98()" style="border-bottom:4px solid black"></td>
+                    <td id="cell99" onclick="click99()" style="border-bottom:4px solid black"></td>
+                    <td id="cell100" onclick="click100()" style="border-right:4px solid black; border-bottom:4px solid black"></td>
+                </tr>
+                
+            </table>
+
+            <div id="btn">
+                <a href="level.html"><img src="img/level.png" alt="level"></a>
+                <img src="img/reset.png" alt="reset" onclick="reset()">
+            </div>
+            
+        </div>
+
+    </body>
+
+    <script src="hard-java.js"></script>
+
+</html>
+
